@@ -1,0 +1,86 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;    
+  /* background-color: slategrey; 
+  Since the colors set in the html file are prioritized the line above
+  doesn't change anything and I'll comment it as of now
+  */
+  color: #183a1d; 
+}
+
+h1{
+  
+  font-family: verdana, arial, sans-serif; 
+  /* I set the style of the text in the paragraph using html file, 
+  so the arial style is not used even though is mentioned here*/
+}
+
+button{
+  
+padding: 10px;
+border-radius: 10px;
+  
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#Btn1 {
+    background: #FFFACD; /* lightgreen in the instructions */
+}
+
+#Btn2 {
+    background: #FFA07A; /* lightblue */
+}
+
+#Btn3 {
+    background: LightSkyBlue; /* pink */
+}
+
+#Btn4 {
+    background: MediumSlateBlue; /* lightyellow */
+}
+
+#Btn1:active, #Btn1.lit {
+    background:orange;
+}
+
+#Btn2:active, #Btn2.lit {
+    background:FireBrick;
+}
+
+#Btn3:active,  #Btn3.lit {
+    background:DodgerBlue;
+}
+
+#Btn4:active,  #Btn4.lit {
+    background:darkblue;
+}
