@@ -19,21 +19,14 @@
       Light and Sound Memory Game
     </h1>
     <p style="font-family:verdana;">
-      Hi there and Welcome :) <br> 
-      To tease your brain a bit try guessing a sequence of tones by pressing the 1st button or listen to the sequence 
-      of different tones that correspond to different buttons 
-      below and try to repeat the order(button 2.)<br>
+      Hi there and Welcome! :) <br> 
+      To tease your brain a bit try repeating a sequence of tones after computer. <br>
       Enjoy!
     </p>
     <button onclick="startGame()" id="startBtn">Start</button>   
     <!-- One can put style="margin:10px;" in front of the id statement above 
     to change the spacing between the buttons-->
     <button onclick="stopGame()" class="hidden" id="stopBtn">Stop</button>
-      
-    <button onclick="start1Game()" id="start1Btn">Start with PC</button>   
-    <!-- One can put style="margin:10px;" in front of the id statement above 
-    to change the spacing between the buttons-->
-    <button onclick="stop1Game()" class="hidden" id="stop1Btn">Stop</button>
   
     <div id = "gameButtonArea">
       
@@ -45,6 +38,8 @@
             onmouseup="stopTone()" id="Btn3"></button> 
     <button onmousedown="startTone(4)" onclick="guess(4)"
             onmouseup="stopTone()" id="Btn4"></button> 
+    <button onmousedown="startTone(5)" onclick="guess(5)"
+            onmouseup="stopTone()" id="Btn5"></button> 
       
     </div>
   </body>

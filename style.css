@@ -31,8 +31,9 @@ h1{
 
 button{
   
-padding: 10px;
-border-radius: 10px;
+padding: 15px;
+border-radius: 20px;
+
   
 }
 
@@ -53,6 +54,43 @@ video {
   display: none;
 }
 
+#startBtn {
+  
+border-radius: 30px; /* Curve of border corners */
+ 
+text-transform: uppercase; /* Make letters uppercase */
+ 
+color: black; /* Text color */
+ 
+background: #0099cc; /* For browsers that do not support gradients */
+ 
+background: -webkit-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef); /* For Safari 5.1 to 6.0 */
+ 
+background: -o-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef); /* For Opera 11.1 to 12.0 */
+ 
+background: -moz-linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef); /* For Firefox 3.6 to 15 */
+ 
+background: linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef); /* Standard syntax */
+ 
+
+}
+
+#stopBtn {
+border-radius: 30px; /* Curve of border corners */
+text-transform: uppercase; /* Make letters uppercase */
+color: black; /* Text color */
+background: IndianRed; 
+}
+
+#start1Btn {
+    background: DarkSeaGreen; /* lightgreen in the instructions */
+}
+
+#stop1Btn {
+    background: Brown; /* lightgreen in the instructions */
+}
+
+
 #Btn1 {
     background: #FFFACD; /* lightgreen in the instructions */
 }
@@ -69,6 +107,10 @@ video {
     background: MediumSlateBlue; /* lightyellow */
 }
 
+#Btn5 {
+    background: MediumBlue;
+}
+
 #Btn1:active, #Btn1.lit {
     background:orange;
 }
@@ -82,5 +124,11 @@ video {
 }
 
 #Btn4:active,  #Btn4.lit {
-    background:darkblue;
+    background:MediumBlue;
+}
+
+#Btn5:active,  #Btn4.lit {
+  background: url("https://i.imgflip.com/4zi51y.png");
+  background-size: contain;
+  background-size: cover;
 }
