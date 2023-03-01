@@ -15,10 +15,6 @@ body {
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;    
-  /* background-color: slategrey; 
-  Since the colors set in the html file are prioritized the line above
-  doesn't change anything and I'll comment it as of now
-  */
   color: #183a1d; 
 }
 
